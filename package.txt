@@ -1,9 +1,9 @@
 NAME=prboom-plus
 VERSION=2.5.1.4
-REVISION=3
+REVISION=4
 LICENSE=GPL-2.0-only
 SRC=https://downloads.sourceforge.net/project/prboom-plus/prboom-plus/2.5.1.4/prboom-plus-2.5.1.4.tar.gz
 SRCMD5=eff7878d4542259a2bd6b2fef79962ca
-CLEANUP=yes
+PURGE=yes
 BUILDDEPS=sdl sdl-image sdl-mixer sdl-net libpng pcre
 INSTALLDEPS=sdl sdl-image sdl-mixer sdl-net pcre
